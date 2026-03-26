@@ -90,5 +90,3 @@ This cleaned dataset will be used as the input for Week 2, where advanced analyt
 
 
 
-Pravith
-MBA Data and Business Analytics
