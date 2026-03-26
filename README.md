@@ -95,3 +95,103 @@ This cleaned dataset serves as the input for Week 2 (Big Data Processing and Ana
 
 
 
+
+
+# LogiScale Supply Chain Analytics — Week 2
+
+## Project Overview
+
+Week 2 of the LogiScale project focuses on transforming the cleaned dataset from Week 1 into meaningful business insights using PySpark. The objective was to move beyond data preparation and perform large-scale analytical computations to understand operational efficiency, delivery performance, and profitability across the supply chain.
+
+This stage emphasizes real-world analytical thinking by applying aggregations, window functions, and anomaly detection techniques on a large dataset.
+
+---
+
+## Dataset
+
+The dataset used in this phase is derived from the cleaned output of Week 1 and originally sourced from Kaggle:
+
+DataCo Smart Supply Chain Dataset for Big Data Analysis
+https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
+
+The working dataset contains over 170,000 processed records and includes key attributes such as:
+
+* Order Region, Market, Shipping Mode
+* Sales, Profit, Quantity
+* Delivery delay metrics and risk indicators
+* Time-based attributes (year, month, quarter)
+
+This dataset enables analysis of logistics efficiency and business performance at scale.
+
+---
+
+## Tools and Technologies
+
+* PySpark for distributed data processing and analysis
+* Python for implementation
+* Pandas for exporting results
+* Jupyter Notebook for execution
+
+---
+
+## Key Analysis Performed
+
+### Route Efficiency Analysis
+
+Evaluated shipping performance across regions by analyzing average delay, late shipment percentage, and shipment volume. This helps identify underperforming logistics regions.
+
+### Shipping Mode Performance
+
+Compared different shipping methods based on delivery time, delay patterns, risk percentage, and profitability. This analysis highlights which shipping modes are most efficient and cost-effective.
+
+### Time-Based Trend Analysis
+
+Used PySpark window functions to calculate running totals and identify revenue trends over time. Monthly aggregations provided insight into business growth and seasonal patterns.
+
+### Anomaly Detection
+
+Applied Z-score based analysis to detect abnormal delivery delays across regions. This helps identify unusual operational disruptions or inefficiencies.
+
+### Profit Margin Analysis
+
+Analyzed profitability across customer segments, product categories, and markets. This provided a clear understanding of high-performing and underperforming business areas.
+
+---
+
+## Output
+
+The analysis results were exported as structured CSV files for further visualization and reporting:
+
+```text
+outputs/agg_route_efficiency.csv
+outputs/agg_shipping_mode.csv
+outputs/agg_monthly_trends.csv
+outputs/agg_profit_margin.csv
+outputs/agg_anomalies.csv
+```
+
+These outputs represent aggregated insights and are designed to be directly used in dashboarding tools such as Power BI or Tableau.
+
+---
+
+## Key Insights
+
+* A significant percentage of shipments experienced delays, indicating inefficiencies in logistics operations
+* Certain shipping modes consistently underperformed in terms of delivery time and reliability
+* Regional disparities in delivery performance highlight areas requiring operational improvement
+* Profitability varies across customer segments and product categories, suggesting opportunities for optimization
+* Anomaly detection revealed irregular delay patterns that may indicate deeper systemic issues
+
+---
+
+## Learning Outcomes
+
+* Applied PySpark for large-scale analytical computations
+* Gained experience with grouping, aggregation, and window functions
+* Understood how to convert raw data into business insights
+* Learned anomaly detection techniques using statistical methods
+* Built a data-driven approach to evaluating operational performance
+
+---
+
+
