@@ -286,6 +286,100 @@ This project demonstrates how raw logistics data can be transformed into meaning
 
 
 
+Week 4 – Final Pipeline & Automation
+LogiScale Control Tower Project
+📊 Overview
 
+Week 4 focuses on integrating the entire data pipeline into a single automated workflow. This stage connects data cleaning, processing, and analysis into a unified system that generates final outputs and insights for decision-making.
+
+The pipeline ensures that updated data can be processed and reflected in the dashboard with minimal manual effort.
+
+🎯 Objective
+Build a complete end-to-end data pipeline
+Automate data processing and output generation
+Generate executive-level insights
+Prepare final datasets for dashboard integration
+🏗️ Pipeline Flow
+Cleaned Data (Week 1)
+        ↓
+PySpark Processing (Week 2)
+        ↓
+Aggregation & Feature Engineering
+        ↓
+Pandas Conversion & Forecasting
+        ↓
+Final Output Files
+        ↓
+Power BI Dashboard (Week 3)
+🛠️ Tools & Technologies
+PySpark – Data processing and aggregation
+Pandas – Data transformation and forecasting
+Python – Pipeline scripting
+Power BI – Dashboard visualization
+OS Module – File handling and automation
+🔧 Key Components
+1. Data Loading
+Loads cleaned dataset (final_output.csv)
+Uses PySpark for scalable processing
+2. Data Cleaning & Filtering
+Removes cancelled shipments
+Handles missing values (important columns only)
+3. Feature Engineering
+Creates delay_days column
+Extracts:
+order_year
+order_month
+4. Aggregation
+Route efficiency:
+Average delay per region
+Total shipments
+Monthly trends:
+Units sold
+Revenue
+5. Forecasting
+Uses rolling average (3-month window)
+Predicts short-term demand trends
+6. Data Export
+Generates final CSV files:
+final_route_efficiency.csv
+final_monthly_trends.csv
+7. Executive Summary
+
+Automatically identifies:
+
+Region with highest delay
+Best performing region
+Total shipments
+📂 Output Files
+File	Description
+final_route_efficiency.csv	Region-level performance
+final_monthly_trends.csv	Monthly trends + forecast
+⚙️ How to Run
+Install dependencies:
+pip install pandas pyspark
+Update file path in script:
+CSV_PATH = r"C:\path\to\final_output.csv"
+Run the pipeline:
+python week4_final_pipeline.py
+🔄 Automation
+
+This pipeline can be automated using Windows Task Scheduler:
+
+Schedule script execution daily/weekly
+Automatically refresh output datasets
+Ensure Power BI dashboard stays updated
+📈 Key Insights Generated
+Identification of high-delay regions
+Detection of efficient logistics zones
+Shipment distribution trends
+Forecasted demand patterns
+💡 Key Learnings
+Building an end-to-end data pipeline
+Integrating PySpark with Pandas
+Automating data workflows
+Translating data into business insights
+🏁 Conclusion
+
+Week 4 completes the LogiScale project by transforming individual components into a fully functional and automated analytics pipeline. It demonstrates practical skills in data engineering, analysis, and real-world business problem solving.
 
 
