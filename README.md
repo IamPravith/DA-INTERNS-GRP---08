@@ -195,3 +195,97 @@ These outputs represent aggregated insights and are designed to be directly used
 ---
 
 
+ LogiScale Control Tower – End-to-End Logistics Analytics Pipeline Week - 03
+ 
+📊 Overview
+
+This project presents an end-to-end data analytics pipeline built to analyze logistics and supply chain performance. It combines data cleaning, big data processing, and visualization to deliver actionable insights for operational efficiency.
+
+The final output is an interactive Power BI dashboard supported by an automated data pipeline using PySpark and Pandas.
+
+🎯 Objective
+
+The goal of this project is to:
+
+Analyze shipment delays across regions
+Identify high-performing and underperforming logistics zones
+Track shipment volumes and trends
+Provide decision-ready insights through a dashboard
+🏗️ Project Architecture
+Raw Data → Data Cleaning → PySpark Processing → Aggregation → Power BI Dashboard → Automation
+📅 Weekly Breakdown
+🔹 Week 1 – Data Cleaning & Preparation
+Cleaned raw dataset
+Handled missing values
+Removed irrelevant records
+Output: final_output.csv
+🔹 Week 2 – Big Data Processing (PySpark)
+Created new features (delay_days)
+Aggregated:
+Average delay by region
+Total shipments
+Monthly trends
+Output:
+agg_route_efficiency.csv
+agg_monthly_trends.csv
+🔹 Week 3 – Data Visualization (Power BI)
+Built interactive dashboard
+KPI Cards:
+Average Delay
+Total Shipments
+Best Performing Region
+Charts:
+Route Efficiency (Delay by Region)
+Shipment Volume
+Added insights and slicers
+🔹 Week 4 – Automation & Final Pipeline
+Integrated full pipeline using PySpark + Pandas
+Added forecasting using rolling averages
+Generated executive summary
+Automated data export for dashboard refresh
+🛠️ Tools & Technologies
+Python
+PySpark
+Pandas
+Power BI
+Excel
+Windows Task Scheduler (Automation)
+📂 Key Files
+File	Description
+week1_environment_ingestion.py	Data cleaning
+week2_big_data_processing.py	PySpark aggregation
+week4_final_pipeline.py	Final automated pipeline
+final_output.csv	Cleaned dataset
+final_route_efficiency.csv	Dashboard input
+final_monthly_trends.csv	Trend analysis
+📈 Key Insights
+Certain regions consistently show higher delivery delays
+High shipment volume areas often correlate with inefficiencies
+Some regions demonstrate optimized logistics performance
+Data-driven decisions can significantly improve route efficiency
+🚀 How to Run
+Install dependencies:
+pip install pandas pyspark
+Update dataset path:
+CSV_PATH = "your_path/final_output.csv"
+Run pipeline:
+python week4_final_pipeline.py
+Refresh Power BI dashboard with updated CSV outputs
+📊 Dashboard
+
+The dashboard provides a centralized view of logistics performance, enabling quick identification of operational bottlenecks and opportunities for optimization.
+
+💡 Learnings
+Hands-on experience with big data processing using PySpark
+Building end-to-end data pipelines
+Creating business-focused dashboards
+Translating raw data into actionable insights
+📌 Conclusion
+
+This project demonstrates how raw logistics data can be transformed into meaningful insights through a structured analytics pipeline. It reflects practical skills in data engineering, analysis, and visualization.
+
+
+
+
+
+
