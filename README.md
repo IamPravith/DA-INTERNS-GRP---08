@@ -273,6 +273,8 @@ python week4_final_pipeline.py
 Refresh Power BI dashboard with updated CSV outputs
 📊 Dashboard
 
+<img width="1743" height="750" alt="image" src="https://github.com/user-attachments/assets/721e726f-d8fe-4e2b-9786-d725656258e2" />
+
 The dashboard provides a centralized view of logistics performance, enabling quick identification of operational bottlenecks and opportunities for optimization.
 
 💡 Learnings
