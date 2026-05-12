@@ -557,3 +557,6 @@ for Power BI integration.
 Interactive business dashboard
 Real-time analytical insights
 Improved decision-making visualization
+
+<img width="1556" height="743" alt="image" src="https://github.com/user-attachments/assets/49193678-74d2-40dd-887e-3d653ac41a5d" />
+
