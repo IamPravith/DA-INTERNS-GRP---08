@@ -560,3 +560,72 @@ Improved decision-making visualization
 
 <img width="1556" height="743" alt="image" src="https://github.com/user-attachments/assets/49193678-74d2-40dd-887e-3d653ac41a5d" />
 
+WEEK 8 – Automation & Data Pipeline
+🎯 Objective
+
+The objective of Week 8 was to automate the analytics workflow and create an end-to-end data pipeline.
+
+⚙️ Tasks Performed
+🔹 Automation Script Development
+
+Created Python automation pipeline for:
+
+Data extraction
+RFM processing
+Segmentation
+Output generation
+🔹 Automated MySQL Updates
+
+Automated insertion of updated RFM results into:
+
+customer_rfm
+🔹 CSV Export Automation
+
+Automatically generated:
+
+rfm_output.csv
+
+for dashboard refresh.
+
+🔹 Workflow Scheduling
+
+Configured Windows Task Scheduler for:
+
+Daily/weekly pipeline execution
+🔹 End-to-End Pipeline
+
+Implemented complete flow:
+
+MySQL → Python → Analytics → CSV → Power BI Dashboard
+✅ Outcome of Week 8
+Fully automated analytics workflow
+Reduced manual processing
+Dashboard-ready automated pipeline
+🧠 Key Learnings
+Data cleaning and preprocessing
+Database schema design
+SQL optimization techniques
+RFM-based customer segmentation
+Cohort and behavioral analysis
+Dashboard creation using Power BI
+Automation and workflow scheduling
+🛠️ Tech Stack
+Python (Pandas, NumPy)
+MySQL
+Jupyter Notebook
+Power BI
+SQL
+Windows Task Scheduler
+📌 Final Conclusion
+
+This project successfully transformed raw retail transaction data into a fully automated business analytics solution.
+
+The implementation demonstrates:
+
+Data engineering
+Customer analytics
+Dashboard visualization
+Workflow automation
+
+making it a complete end-to-end retail analytics pipeline.
+
