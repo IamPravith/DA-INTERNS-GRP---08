@@ -384,4 +384,64 @@ Translating data into business insights
 
 Week 4 completes the LogiScale project by transforming individual components into a fully functional and automated analytics pipeline. It demonstrates practical skills in data engineering, analysis, and real-world business problem solving.
 
+WEEK 5  – Data Engineering & Database Design
+🎯 Objective
+
+The objective of Week 5 was to clean and structure raw transactional data and create an optimized database schema for analytical processing.
+
+⚙️ Tasks Performed
+🔹 Data Loading & Cleaning
+Imported retail transaction dataset using Pandas
+Removed:
+Null Customer IDs
+Cancelled invoices
+Invalid quantity records
+Created:
+TotalPrice = Quantity × Price
+🔹 SQL-Based Cleaning
+Performed additional validation using SQL
+Ensured:
+Data consistency
+Clean transaction logs
+🔹 Star Schema Design
+
+Created a warehouse-style schema:
+
+Fact Table
+fact_sales
+Dimension Tables
+dim_customer
+dim_product
+🔹 Query Optimization
+Created indexes on:
+CustomerID
+StockCode
+InvoiceDate
+Used EXPLAIN for performance validation
+🔹 Data Validation
+
+Performed checks for:
+
+Null values
+Duplicate records
+Invalid entries
+🔹 Business-Level Queries
+
+Generated:
+
+Top customers by revenue
+Average order value
+Order frequency analysis
+🔹 ER Diagram
+
+Designed an ER diagram showing:
+
+Table relationships
+Primary & foreign keys
+Star schema architecture
+
+ Outcome of Week 5
+Structured and optimized database
+Clean analytical dataset
+Strong foundation for advanced analytics
 
