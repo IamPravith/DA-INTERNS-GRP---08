@@ -445,3 +445,63 @@ Structured and optimized database
 Clean analytical dataset
 Strong foundation for advanced analytics
 
+WEEK  – Customer Analytics & Segmentation
+🎯 Objective
+
+The objective of Week  was to analyze customer purchasing behavior using RFM analytics and customer segmentation techniques.
+
+⚙️ Tasks Performed
+🔹 Data Extraction
+Loaded transactional data from MySQL into Python
+🔹 RFM Analysis
+
+Calculated:
+
+Recency
+Frequency
+Monetary
+
+for each customer.
+
+🔹 RFM Scoring
+
+Applied quantile-based scoring:
+
+Score range: 1–5
+Generated combined RFM score
+🔹 Customer Segmentation
+
+Created customer groups such as:
+
+Champions
+Loyal Customers
+Frequent Customers
+Big Spenders
+At Risk Customers
+🔹 Segment Analysis
+
+Analyzed:
+
+Revenue contribution
+Customer distribution
+Segment performance
+🔹 Cohort Analysis
+
+Performed retention analysis using:
+
+First purchase month
+Repeat customer behavior
+🔹 Market Basket Analysis (Bonus)
+
+Prepared transaction matrix for association analysis.
+
+🔹 Data Storage
+
+Stored final RFM results into MySQL:
+
+customer_rfm
+✅ Outcome of Week 
+Business-focused customer insights
+Segmented customer base
+Analytics-ready dataset for dashboards
+
