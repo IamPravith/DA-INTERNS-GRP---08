@@ -505,3 +505,55 @@ Business-focused customer insights
 Segmented customer base
 Analytics-ready dataset for dashboards
 
+
+WEEK 7 – Dashboard Development & Visualization
+🎯 Objective
+
+The objective of Week 7 was to visualize business insights using an interactive Power BI dashboard.
+
+⚙️ Tasks Performed
+🔹 KPI Development
+
+Created KPIs such as:
+
+Total Revenue
+Total Orders
+Total Customers
+Average Order Value
+🔹 Revenue Trend Analysis
+
+Built monthly sales trend visualizations.
+
+🔹 Customer Segmentation Dashboard
+
+Visualized:
+
+Segment distribution
+High-value customers
+Customer categories
+🔹 Product & Sales Analysis
+
+Generated:
+
+Top product analysis
+Revenue comparison charts
+🔹 Dashboard Filters
+
+Implemented interactive filters:
+
+Country
+Segment
+Date
+🔹 Data Export
+
+Exported processed datasets:
+
+rfm_output.csv
+sales_data.csv
+
+for Power BI integration.
+
+✅ Outcome of Week 7
+Interactive business dashboard
+Real-time analytical insights
+Improved decision-making visualization
